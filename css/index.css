@@ -1,0 +1,232 @@
+body {
+  background-color: white;
+  font: 400 1em/1.38 Lato;
+  color: #534e5d;
+}
+
+p {
+   margin-bottom: 0.6em;
+}
+
+a {
+   color: #67b8a9;
+   transition: all 0.3s linear;
+}
+
+a:hover {
+   color: #4a9689;
+   border-bottom: 1px dotted;
+}
+
+em {
+   font-style: italic;
+}
+
+h3 {
+   font-size: 1.2em;
+   margin-bottom: 0.6em;
+   padding-top: 1.2em;
+}
+
+.inner {
+  float: left;
+  width: 80%;
+  max-width: 1280px;
+  margin-left: 10%;
+  padding: 4em 0;
+}
+
+.section-head {
+  padding-bottom: 1.5em;
+  font-size: 2.1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.section-head::before {
+   display: block;
+   height: 4px;
+   width: 40px;
+   background-color: #32323a;
+   content: '';
+   margin: 0 auto 10px;
+}
+
+.header-cover {
+  background-image: url('../images/montparnasse_web-g.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.hero {
+  clear: both;
+  text-align: center;
+  padding: 10em 0 15em;
+}
+
+.muse-name {
+   width: 187px;
+}
+
+.hero-text {
+  float: left;
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.4em;
+  color: white;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+  background-image: url('../images/muse_white@2x.png');
+  background-repeat: no-repeat;
+  background-size: 110px 48.5px;
+  background-position: center center;
+}
+
+.mission {
+  background-color: #67b8a9;
+  border-top: 1px solid #8CE6D6;
+  border-bottom: 8px solid #8CE6D6;
+}
+
+.mission-text {
+  font-size: 1.3em;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+.mission-text .muse {
+   font-style: normal;
+   font-weight: 400;
+}
+
+.about {
+  background-color: white;
+}
+
+.fluid-item {
+  position: relative;
+  float: left;
+  margin-right: 2.91667%;
+}
+
+.fluid-item:last-child {
+   margin:0;
+}
+
+.about-item-head {
+  padding: 1em 0;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.about-item-text {
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.about-item-cta {
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-item-cta a {
+  display: inline-block;
+  padding: 0.5em 0.8em 0.6em;
+  color: white;
+  background: #67b8a9;
+  border-bottom: 4px solid #8CE6D6;
+}
+
+.about-item-cta a:hover {
+  background: #B77AD7;
+  background: linear-gradient(45deg, #67b8a9, #B77AD7);
+}
+
+.social {
+  background-color: #f3f1f6;
+  border-top: 1px solid #f3edff;
+  border-bottom: 8px solid #E4E0EC;
+}
+
+.social-item .muse {
+   font-style: italic;
+   font-weight: 400;
+}
+
+.social-item-head:first-child {
+   padding-top: 0.3em;
+}
+
+.social-item-news-list, .social-item-news-list li {
+   list-style: square outside;
+}
+
+.social-item-news-list {
+   padding: 0 0 0 20px;
+}
+
+.authors {
+   background: white;
+}
+
+.page-footer {
+  background-color: rgb(30, 17, 54);
+}
+
+.page-footer .inner {
+   padding: 3em 0;
+}
+
+.page-footer .logo {
+   opacity: 0.9;
+}
+
+.author-name {
+   padding-top: 0;
+   margin-bottom: 0.3em;
+}
+
+.author-meta {
+   font-style: italic;
+   margin-bottom: 1.2em;
+}
+
+.author-links {
+   margin-top: 1.8em;
+   padding: 0.6em;
+   background: #f3f1f6;
+   border-top: 1px solid #f3edff;
+   border-bottom: 8px solid #E4E0EC;
+}
+
+.author-links-head {
+   margin-bottom: 0.6em;
+   text-transform: uppercase;
+   font-size: 0.8em;
+}
+
+.author-links-list li {
+   padding: 4px 0 4px 32px;
+}
+
+.author-links-list .link-web {
+   background: transparent url(../images/web.png) left 5px no-repeat;
+}
+
+.author-links-list .link-twitter {
+   background: transparent url(../images/twitter.png) left 5px no-repeat;
+}
+
+.copyright {
+   color: rgb(83, 62, 120);
+   text-align: center;
+}
